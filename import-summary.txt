@@ -1,0 +1,184 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+ * Project
+   AndroidQueryDemo:F:\cloudbaidu\projects\android\androidquery\demo\.classpath:
+   Could not resolve source path aquery in project AndroidQueryDemo: ignored.
+   The project may not compile if the given source path provided source code.
+
+ * Project
+   AndroidQueryDemo:F:\cloudbaidu\projects\android\androidquery\demo\.classpath:
+   Could not resolve source path auth in project AndroidQueryDemo: ignored. The
+   project may not compile if the given source path provided source code.
+
+ * Project
+   AndroidQueryDemo:F:\cloudbaidu\projects\android\androidquery\demo\.classpath:
+   Could not resolve source path beta in project AndroidQueryDemo: ignored. The
+   project may not compile if the given source path provided source code.
+
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* Wiki.txt
+* dist\
+* dist\screens\
+* dist\screens\Android.png
+* dist\screens\fb_auth.png
+* dist\screens\promo.jpg
+* dist\screens\screen1.png
+* dist\screens\screen2.png
+* dist\screens\screen3.png
+* dist\screens\screen4.png
+* dist\screens\screen5.png
+* dist\screens\zoom.png
+* gadget\
+* gadget\donate.xml
+* gadget\social.xml
+* proguard-risky.cfg
+* proguard.cfg
+* proguard.safest.cfg
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+gson-2.0.jar => com.google.code.gson:gson:2.0
+
+Potentially Missing Dependency:
+-------------------------------
+When we replaced the following .jar files with a Gradle dependency, we
+inferred the dependency version number from the filename. This
+specific version may not actually be available from the repository.
+If you get a build error stating that the dependency is missing, edit
+the version number to for example "+" to pick up the latest version
+instead. (This may require you to update your code if the library APIs
+have changed.)
+
+gson-2.0.jar => version 2.0 in com.google.code.gson:gson:2.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => androidQueryDemo\src\main\AndroidManifest.xml
+* libs\android-support-v13.jar => androidQueryDemo\libs\android-support-v13.jar
+* libs\charts4j-1.3.jar => androidQueryDemo\libs\charts4j-1.3.jar
+* libs\FlurryAgent.jar => androidQueryDemo\libs\FlurryAgent.jar
+* libs\signpost-commonshttp4-1.2.1.1.jar => androidQueryDemo\libs\signpost-commonshttp4-1.2.1.1.jar
+* libs\signpost-core-1.2.1.1.jar => androidQueryDemo\libs\signpost-core-1.2.1.1.jar
+* lint.xml => androidQueryDemo\lint.xml
+* res\ => androidQueryDemo\src\main\res\
+* src\ => androidQueryDemo\src\main\java\
+* src\com\androidquery\test\source\async_advance => androidQueryDemo\src\main\resources\com\androidquery\test\source\async_advance
+* src\com\androidquery\test\source\async_bytes => androidQueryDemo\src\main\resources\com\androidquery\test\source\async_bytes
+* src\com\androidquery\test\source\async_cached => androidQueryDemo\src\main\resources\com\androidquery\test\source\async_cached
+* src\com\androidquery\test\source\async_cookie => androidQueryDemo\src\main\resources\com\androidquery\test\source\async_cookie
+* src\com\androidquery\test\source\async_delete => androidQueryDemo\src\main\resources\com\androidquery\test\source\async_delete
+* src\com\androidquery\test\source\async_encoding => androidQueryDemo\src\main\resources\com\androidquery\test\source\async_encoding
+* src\com\androidquery\test\source\async_error => androidQueryDemo\src\main\resources\com\androidquery\test\source\async_error
+* src\com\androidquery\test\source\async_file => androidQueryDemo\src\main\resources\com\androidquery\test\source\async_file
+* src\com\androidquery\test\source\async_file_custom => androidQueryDemo\src\main\resources\com\androidquery\test\source\async_file_custom
+* src\com\androidquery\test\source\async_header => androidQueryDemo\src\main\resources\com\androidquery\test\source\async_header
+* src\com\androidquery\test\source\async_html => androidQueryDemo\src\main\resources\com\androidquery\test\source\async_html
+* src\com\androidquery\test\source\async_inputstream => androidQueryDemo\src\main\resources\com\androidquery\test\source\async_inputstream
+* src\com\androidquery\test\source\async_invalidate => androidQueryDemo\src\main\resources\com\androidquery\test\source\async_invalidate
+* src\com\androidquery\test\source\async_json => androidQueryDemo\src\main\resources\com\androidquery\test\source\async_json
+* src\com\androidquery\test\source\async_json_array => androidQueryDemo\src\main\resources\com\androidquery\test\source\async_json_array
+* src\com\androidquery\test\source\async_method_cb => androidQueryDemo\src\main\resources\com\androidquery\test\source\async_method_cb
+* src\com\androidquery\test\source\async_multipart => androidQueryDemo\src\main\resources\com\androidquery\test\source\async_multipart
+* src\com\androidquery\test\source\async_post => androidQueryDemo\src\main\resources\com\androidquery\test\source\async_post
+* src\com\androidquery\test\source\async_post_entity => androidQueryDemo\src\main\resources\com\androidquery\test\source\async_post_entity
+* src\com\androidquery\test\source\async_progress => androidQueryDemo\src\main\resources\com\androidquery\test\source\async_progress
+* src\com\androidquery\test\source\async_progress_activity => androidQueryDemo\src\main\resources\com\androidquery\test\source\async_progress_activity
+* src\com\androidquery\test\source\async_progress_activity_bar => androidQueryDemo\src\main\resources\com\androidquery\test\source\async_progress_activity_bar
+* src\com\androidquery\test\source\async_progress_dialog => androidQueryDemo\src\main\resources\com\androidquery\test\source\async_progress_dialog
+* src\com\androidquery\test\source\async_progress_dialogbar => androidQueryDemo\src\main\resources\com\androidquery\test\source\async_progress_dialogbar
+* src\com\androidquery\test\source\async_put => androidQueryDemo\src\main\resources\com\androidquery\test\source\async_put
+* src\com\androidquery\test\source\async_rcookies => androidQueryDemo\src\main\resources\com\androidquery\test\source\async_rcookies
+* src\com\androidquery\test\source\async_rheaders => androidQueryDemo\src\main\resources\com\androidquery\test\source\async_rheaders
+* src\com\androidquery\test\source\async_status => androidQueryDemo\src\main\resources\com\androidquery\test\source\async_status
+* src\com\androidquery\test\source\async_transformer => androidQueryDemo\src\main\resources\com\androidquery\test\source\async_transformer
+* src\com\androidquery\test\source\async_xml => androidQueryDemo\src\main\resources\com\androidquery\test\source\async_xml
+* src\com\androidquery\test\source\async_xpp => androidQueryDemo\src\main\resources\com\androidquery\test\source\async_xpp
+* src\com\androidquery\test\source\auth_basic => androidQueryDemo\src\main\resources\com\androidquery\test\source\auth_basic
+* src\com\androidquery\test\source\auth_contacts => androidQueryDemo\src\main\resources\com\androidquery\test\source\auth_contacts
+* src\com\androidquery\test\source\auth_facebook => androidQueryDemo\src\main\resources\com\androidquery\test\source\auth_facebook
+* src\com\androidquery\test\source\auth_facebook_sso => androidQueryDemo\src\main\resources\com\androidquery\test\source\auth_facebook_sso
+* src\com\androidquery\test\source\auth_last_account => androidQueryDemo\src\main\resources\com\androidquery\test\source\auth_last_account
+* src\com\androidquery\test\source\auth_picasa => androidQueryDemo\src\main\resources\com\androidquery\test\source\auth_picasa
+* src\com\androidquery\test\source\auth_pick_account => androidQueryDemo\src\main\resources\com\androidquery\test\source\auth_pick_account
+* src\com\androidquery\test\source\auth_specific_account => androidQueryDemo\src\main\resources\com\androidquery\test\source\auth_specific_account
+* src\com\androidquery\test\source\auth_twitter => androidQueryDemo\src\main\resources\com\androidquery\test\source\auth_twitter
+* src\com\androidquery\test\source\auth_twitter_token => androidQueryDemo\src\main\resources\com\androidquery\test\source\auth_twitter_token
+* src\com\androidquery\test\source\auth_twitter_upload => androidQueryDemo\src\main\resources\com\androidquery\test\source\auth_twitter_upload
+* src\com\androidquery\test\source\auth_unauth => androidQueryDemo\src\main\resources\com\androidquery\test\source\auth_unauth
+* src\com\androidquery\test\source\auth_youtube => androidQueryDemo\src\main\resources\com\androidquery\test\source\auth_youtube
+* src\com\androidquery\test\source\image_access_file => androidQueryDemo\src\main\resources\com\androidquery\test\source\image_access_file
+* src\com\androidquery\test\source\image_access_memory => androidQueryDemo\src\main\resources\com\androidquery\test\source\image_access_memory
+* src\com\androidquery\test\source\image_advance => androidQueryDemo\src\main\resources\com\androidquery\test\source\image_advance
+* src\com\androidquery\test\source\image_animation => androidQueryDemo\src\main\resources\com\androidquery\test\source\image_animation
+* src\com\androidquery\test\source\image_animation2 => androidQueryDemo\src\main\resources\com\androidquery\test\source\image_animation2
+* src\com\androidquery\test\source\image_button => androidQueryDemo\src\main\resources\com\androidquery\test\source\image_button
+* src\com\androidquery\test\source\image_cache => androidQueryDemo\src\main\resources\com\androidquery\test\source\image_cache
+* src\com\androidquery\test\source\image_cache_dir => androidQueryDemo\src\main\resources\com\androidquery\test\source\image_cache_dir
+* src\com\androidquery\test\source\image_chart => androidQueryDemo\src\main\resources\com\androidquery\test\source\image_chart
+* src\com\androidquery\test\source\image_clear_disk => androidQueryDemo\src\main\resources\com\androidquery\test\source\image_clear_disk
+* src\com\androidquery\test\source\image_clear_mem => androidQueryDemo\src\main\resources\com\androidquery\test\source\image_clear_mem
+* src\com\androidquery\test\source\image_custom => androidQueryDemo\src\main\resources\com\androidquery\test\source\image_custom
+* src\com\androidquery\test\source\image_down => androidQueryDemo\src\main\resources\com\androidquery\test\source\image_down
+* src\com\androidquery\test\source\image_dup => androidQueryDemo\src\main\resources\com\androidquery\test\source\image_dup
+* src\com\androidquery\test\source\image_elist => androidQueryDemo\src\main\resources\com\androidquery\test\source\image_elist
+* src\com\androidquery\test\source\image_fallback => androidQueryDemo\src\main\resources\com\androidquery\test\source\image_fallback
+* src\com\androidquery\test\source\image_file => androidQueryDemo\src\main\resources\com\androidquery\test\source\image_file
+* src\com\androidquery\test\source\image_file_custom => androidQueryDemo\src\main\resources\com\androidquery\test\source\image_file_custom
+* src\com\androidquery\test\source\image_gallery => androidQueryDemo\src\main\resources\com\androidquery\test\source\image_gallery
+* src\com\androidquery\test\source\image_grid => androidQueryDemo\src\main\resources\com\androidquery\test\source\image_grid
+* src\com\androidquery\test\source\image_list => androidQueryDemo\src\main\resources\com\androidquery\test\source\image_list
+* src\com\androidquery\test\source\image_list2 => androidQueryDemo\src\main\resources\com\androidquery\test\source\image_list2
+* src\com\androidquery\test\source\image_list3 => androidQueryDemo\src\main\resources\com\androidquery\test\source\image_list3
+* src\com\androidquery\test\source\image_list4 => androidQueryDemo\src\main\resources\com\androidquery\test\source\image_list4
+* src\com\androidquery\test\source\image_nocache => androidQueryDemo\src\main\resources\com\androidquery\test\source\image_nocache
+* src\com\androidquery\test\source\image_pre_cache => androidQueryDemo\src\main\resources\com\androidquery\test\source\image_pre_cache
+* src\com\androidquery\test\source\image_preload => androidQueryDemo\src\main\resources\com\androidquery\test\source\image_preload
+* src\com\androidquery\test\source\image_progress => androidQueryDemo\src\main\resources\com\androidquery\test\source\image_progress
+* src\com\androidquery\test\source\image_progress_bar => androidQueryDemo\src\main\resources\com\androidquery\test\source\image_progress_bar
+* src\com\androidquery\test\source\image_progress_dialogbar => androidQueryDemo\src\main\resources\com\androidquery\test\source\image_progress_dialogbar
+* src\com\androidquery\test\source\image_ratio => androidQueryDemo\src\main\resources\com\androidquery\test\source\image_ratio
+* src\com\androidquery\test\source\image_ratio_anchor => androidQueryDemo\src\main\resources\com\androidquery\test\source\image_ratio_anchor
+* src\com\androidquery\test\source\image_ratio_fixed => androidQueryDemo\src\main\resources\com\androidquery\test\source\image_ratio_fixed
+* src\com\androidquery\test\source\image_round => androidQueryDemo\src\main\resources\com\androidquery\test\source\image_round
+* src\com\androidquery\test\source\image_send => androidQueryDemo\src\main\resources\com\androidquery\test\source\image_send
+* src\com\androidquery\test\source\image_simple => androidQueryDemo\src\main\resources\com\androidquery\test\source\image_simple
+* src\com\androidquery\test\source\image_zoom => androidQueryDemo\src\main\resources\com\androidquery\test\source\image_zoom
+* src\com\androidquery\test\source\location_ajax => androidQueryDemo\src\main\resources\com\androidquery\test\source\location_ajax
+* src\com\androidquery\test\source\service_version_auto => androidQueryDemo\src\main\resources\com\androidquery\test\source\service_version_auto
+* src\com\androidquery\test\source\service_version_force => androidQueryDemo\src\main\resources\com\androidquery\test\source\service_version_force
+* src\com\androidquery\test\source\service_version_locale => androidQueryDemo\src\main\resources\com\androidquery\test\source\service_version_locale
+* src\com\androidquery\test\source\xml_ajax => androidQueryDemo\src\main\resources\com\androidquery\test\source\xml_ajax
+* src\com\androidquery\test\source\xml_resource => androidQueryDemo\src\main\resources\com\androidquery\test\source\xml_resource
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
