@@ -85,6 +85,7 @@ import com.androidquery.callback.Transformer;
 import com.androidquery.util.AQUtility;
 import com.androidquery.util.Common;
 import com.androidquery.util.Constants;
+import com.androidquery.util.Primitives;
 import com.androidquery.util.WebImage;
 
 
@@ -1307,7 +1308,11 @@ public abstract class AbstractAQuery<T extends AbstractAQuery<T>> implements Con
 	public WebView getWebView(){
 		return (WebView) view;
 	}
-	
+
+	public <K> K getType(Class<K> classOfT){
+		return Primitives.wrap(classOfT).cast(view);
+	}
+
 	/**
 	 * Gets the current view as a spinner.
 	 *
